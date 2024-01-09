@@ -9,4 +9,8 @@ name = "entity"
 path = "src/lib.rs"
 
 [dependencies]
-sea-orm = { version = "0.12.0", features = ["debug-print", "runtime-tokio-native-tls", "sqlx-postgres"] }
+sea-orm = { version = "0.12.0", features = [
+  "debug-print",
+  "runtime-tokio-native-tls",
+  "sqlx-postgres",
+] }

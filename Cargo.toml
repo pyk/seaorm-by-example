@@ -1,6 +1,2 @@
 [workspace]
-members = [
-    "app",
-    "entity",
-    "migration",
-]
+members = ["app", "entity", "migration"]
